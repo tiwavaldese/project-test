@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <p class="description"><em>The quality of education remains a major challenge in Africa and repetition and drop-out rates are high. More than one student in ten repeats at least one grade in primary school in more than half of all countries in sub-Saharan Africa and particularly in Cameroon. We are seeking funds that will design and implement a program in Cameroon, particularly the northwest region, that would minimize the out-of-pocket costs of schooling, especially for the neediest children and families.</em></p>
+            <ul id="header">
+            <li><img class="image" src="img/logo.jpg" alt="LoGo" ></li>
+            <li><h1>HELP THE LESS PRIVILEGED(HELLEP)</h1></li>
+            <li><button class="description1">DONATE NOW</button></li></ul>
+           <div>
+           <nav id="nav-bar"><img class="img_1" src="img/logo.jpg" alt="LoGo" >
+            <ul >
+                <li><a  href="#" target="_blank"></a>HOME</li>
+                <li><a  href="#" target="_blank"></a>ABOUT</li>
+                <li><a href="#" target="_blank"></a>BLOG</li>
+                <li><a  href="#" target="_blank"></a>EVENTS</li>
+                <li><a href="#" target="_blank"></a>PROJECTS</li>
+                <li><a  href="#" target="_blank"></a>VOLUNTEERS</li>
+                <li><a  href="#" target="_blank"></a>GALLERY</li>
+                <li><a  href="#" target="_blank"></a>CONTACT US</li>
+                <li><a  href="#" target="_blank"></a><em>Login</em></li>
+            </ul>
+           </nav>
+        </div>
+        <div>
+            <nav class="nav-link">
+             <ul >
+                 <li><a  href="#" target="_blank"></a>HOME</li>
+                 <li><a  href="#" target="_blank"></a>ABOUT</li>
+                 <li><a href="#" target="_blank"></a>BLOG</li>
+                 <li><a  href="#" target="_blank"></a>EVENTS</li>
+                 <li><a href="#" target="_blank"></a>PROJECTS</li>
+                 <li><a  href="#" target="_blank"></a>VOLUNTEERS</li>
+                 <li><a  href="#" target="_blank"></a>GALLERY</li>
+                 <li><a  href="#" target="_blank"></a>CONTACT US</li>
+                 <li><a  href="#" target="_blank"></a><em class="italic">Login</em></li>
+             </ul>
+            </nav>
+         </div>
+        <section>
+            <div class="full-img">
+                <img
+                class="displayed-img"
+                src="img/front-page.jpg"
+                /> </div>
+                <div class="thumb-bar"></div>
+               
+            
+             <script>
+                
+    const displayImage= document.querySelector('.displayed-img')
+    const thumbBar= document.querySelector('.thumb-bar');
+    
+
+    const images= ['front-page.jpg',`school.jpg`,`sharebooks.jpg`];
+    const alts= {
+        'front-page.jpg' :"" ,
+        'school.jpg' :"" ,
+        'sharebooks.jpg' : ""
+       
+
+    };
+    for(image of images){
+    const newImage = document.createElement('img');
+     newImage.setAttribute('src', `image/${image}`);
+     newImage.setAttribute('alt', alts[image]);
+     thumbBar.appendChild(newImage);
+     newImage.addEventListener('click',e => {
+        displayImage.src =e.target.src;
+        displayImage.alt=e.target.alt;
+     });
+    }
+
+      
+             </script>
+             
+            <h2 id="header1">#HELP THE LESS PRIVILEGE(HELLEP)</h2>
+            <p>We cater for less privileged kids and youths by providing them with basic necessities as well as ensuring that they acquire good eduction to improve the quality of living for less privileged persons.</p>
+            <button class="description1">DONATE NOW</button>
+        </section>
+     
+        <section>
+            <h2 id="header2">#HELP THE LESS PRIVILEGE From Every Affected Area</h2>
+            <p>We support sick persons and war victims such as IDPs, refugees,casualties by assisting in covering the costs of medical treatments, and providing them with basic necessities.</p>
+            <button class="description1">DONATE NOW</button>
+        </section>
+        <section>
+            <h2 id="header3">#HELLEP Every Community</h2>
+            <p>We undertake developmental activities in target communities to ensure the avilability of nutritive foods and related non-food items, by encouraging agriculture, livestock production and other modern methods of increasing food supply.</p>
+            <button class="description1">DONATE NOW</button>
+        
+        </section>
+    <section>
+        
+        <h2>We Need Your Help</h2>
+        <p>We support sick persons and war victims such as IDPs, refugees casualties by assisting in covering the costs of medical treatments, and providing them with basic necessities. We plan, coordinate, network and implement humanitarian projects to better improve the living conditions of less privileged people in Cameroon, and globally.</p>
+        
+    </section>
+<section>
+    <img class="img_2" src="img/sharebucket.jpg"/>
+    <h3>BACK TO SCHOOL PROJECT FOR IDPs IN THE NORTHWEST REGION</h3>
+    <P>The quality of education remains a major challenge in Africa and repetition and drop-out rates are high. More than one student in ten repeats at least one grade in primary school in more than half of all countries in sub-Saharan Africa and particularly in Cameroon. We are seeking funds that will design and implement a program in Cameroon, particularly the northwest region, that would minimize the out-of-pocket costs of schooling, especially for the needlest children and families.</P>
+<button> 17/08/2022 09:58</button>
+<button>0 comment</button>
+</section>
+<section>
+    <img class="img_2" src="img/waterproject.jpg"/>
+    <h3> CLEAN WATER FOR SOUTHERN CAMEROON</h3>
+    <p>We all believe good drinking water is actually good health, our mission is to provide good water sources around the different municipalities and good water treatment measures are put in place to manage the different water sources that supplied water to the community.</p>
+<button>18/07/2022 13:13</button>
+<button> 0 comment</button>
+</section>
+<section>
+    <img class="img_2" src="img/food.jpg"/>
+    <h3>WE SUPPORT AGRICULTURE</h3>
+    <p>Implementing measures to ensure food availability and security through technical supports to farmers, public sensitization for prevention and eradication of crop and livestock pests, diseases, and the promotion of alternative food crops.</p>
+    <button> 18/07/2022 13:12</button>
+    <button>  0 comment</button>
+</section>
+<section>
+    <h2>Urgent Cause
+        #School for Southern Cameroon Students</h2>
+        <p>To organize forums, seminars, conferences, and other training programmes to educate attendees on good living habits, moral values, self-development, self-reliance, Cameroon’s cultures, and good citizenship.</p>
+    </section>
+<section>
+    <button class="description1">DONATE NOW</button>
+</section>
+<section>
+    <h2>How To Help Us</h2>
+    <p>We fight against exploitation, injustice and corruption if found against any individual, class, community in the society.</p>
+
+    <h3><img src="">
+        Send Donation</h3>
+        <p>Free will gifts, donations and legacies from persons and institutions other contributions comes from persons, partnerships, cooperations and other entities and supporters thereof, whether domestic or foreign.</p>
+   
+
+        <h3> <img src="">
+Become Volunteer</h3>
+        <p>In order to obtain a membership status, interested persons needs to be at least 18 years old, with sound minds, have a good criminal record, be morally upright, and has passion for humanitarian activities</p>
+   
+        <h3> <img src="">
+        Share Media</h3>
+        <p>Fund raising campaigns and other contribution by members will be announcement on our different media forums.</p>
+
+</section>
+<section>
+    <h2>We Help Many People</h2>
+    <h3>Want to Become a Volunteer</h3>
+    <p>
+        We educate people to adopt good norms of good citizenship and inculcate into their minds, ideas of national unity and togetherness.</p>
+        <button>LEARN MORE</button>
+        <button>JOIN US NOW</button>
+</section>
+    </div>
+    </main>
+</body>
+</html>
