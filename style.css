@@ -11,6 +11,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
+    align-items: center;
 }
 .description{
     height: 5vh;
@@ -98,10 +99,10 @@ font-size: 15px ;
 font-weight: bold;
 margin-top: 2.5rem;
 }
-li:hover{
+ li:hover{
     color: burlywood;
 }
-li{
+ li{
     margin-right: 2rem;
     list-style: none;
     color: white;
@@ -456,12 +457,29 @@ animation: em 5s linear infinite;
         display: block;
         
     }
-hr{
+    .container h2{
+       font-size: 35px;
+        text-align: center;
+        display: block;
+        
+    }
+    .container p{
+        width: 70vw;
+        text-align: center;
+        display: block;
+    justify-content: space-between;
+    align-items: center;
+ 
+  margin-left: 15rem;
+  margin-top: 1.5rem;
+    }
+.container hr{
 
-    width: 3%;
+    width: 2%;
     text-align: center;
     margin-left: 40rem;
-    bottom: 30%
+    bottom: 70%;
+    margin-top: 1.5rem;
 }
 .img_2{
     width: 25vw;
@@ -581,7 +599,7 @@ hr{
     position:absolute;
     top: 0;
     left: 0;
-    bottom: 10%;
+    bottom: 60%;
 width: 0vw;
 height: 0vh;
     display:block;
@@ -595,4 +613,286 @@ height: 0vh;
 }
 .grid_item button:hover{
     background-color: black;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.img_7{
+margin-left: 7rem;
+width: 35vw;
+height: 100vh;
+margin-top: 8rem;
+display: block;
+}
+.row_item5{
+display: block;
+justify-content: center;
+align-items: center;
+margin-left: 2rem;
+
+}
+.row_item5 h2{
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    
+}
+.row_item5 hr{
+
+    width: 5%;
+    text-align: center;
+    margin-left: 0.5rem;
+margin-top: 0rem;
+ margin-bottom: 2.5rem;
+}
+.row_item5 h3{
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.row_item5 p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    width: 35vw;
+   margin-bottom: 3rem;
+}
+.img_8{
+  
+    height: 50vh;
+    padding: auto;
+    margin: auto;
+    width: 100vw;
+   
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+.captionA2{
+    position:absolute;
+    left: 0;
+    bottom: 70%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 0 2rem 2rem 0 ;
+    width: 40%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 24rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+
+  
+}
+.captionB2{
+    position:absolute;
+    left: 0;
+    bottom: 55%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 0 2rem 2rem 0 ;
+    width: 35%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+
+  
+}
+.captionC2{
+    position:absolute;
+    left: 0;
+    bottom: 40%;
+    font-size: 1rem;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 0 2rem 2rem 0 ;
+    width: 60%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    text-align: center;
+
+  
+}
+.captionD2{
+    position:absolute;
+    left: 0;
+    bottom: 10%;
+    font-size: 0.9rem;
+    color: rgb(118, 62, 62);
+    background-color: white;
+    border-radius: 0.25rem ;
+    width: 12vw;
+    height: 9vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+ 
+}
+.captionD2:hover{
+    background-color: black;
+}
+.captionE2{
+    position:absolute;
+    left: 0;
+    bottom: 10%;
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgb(118, 62, 62);
+    border-radius: 0.25rem ;
+    width: 12vw;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+}
+.captionE2:hover{
+    background-color: black;
+}
+.content1{
+    display: flex;
+  flex-direction: row;
+    
+    margin-top: 4rem;
+}
+.content1 p{
+    
+    display: flex;
+    border:1px solid black;
+    width: 30vw;
+    margin-top: 0rem;
+    flex-direction: column;
+
+}
+.img_9{
+    width: 8vw;
+    height: 20vh;    
+    border-radius: 70rem;
+    margin-left: 10rem;
+}
+.content1 .img_9:hover{
+    background-color: grey;
+}
+.img_10{
+    width: 8vw;
+    height: 20vh;    
+    border-radius: 70rem;
+    margin-left: 10rem;
+}
+.img_11{
+    width: 8vw;
+    height: 20vh;    
+    border-radius: 70rem;
+    margin-left: 10rem;
+}
+.img_12{
+    width: 8vw;
+    height: 20vh;    
+    border-radius: 70rem;
+    margin-left: 10rem;
+}
+.content2{
+    color: white;
+    background-color: brown;
+    width: 17vw;
+    margin-top: 4rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 2.5rem;
+   padding-right: 1rem;
+    height: 8vh;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+.content2:hover{
+    background-color: black;
+}
+
+.content3{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+}
+.img_13{
+    width: 25vw;
+    height: 43vh;
+}
+.img_13:hover{
+    background-color: black;
+}
+.img_14{
+    width: 25vw;
+    margin-left: 1rem;
+    height: 43vh;
+}
+.img_15{
+    width: 25vw;
+    margin-left: 1rem;
+    height: 43vh;
+}
+
+
+.content5{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+    margin-bottom: 3rem;
+}
+.img_17{
+    width: 18vw;
+    height: 38vh;
+    border: 1px solid whitesmoke;
+}
+
+
+.img_18{
+    width: 25vw;
+    margin-left: 3rem;
+    height: 43vh;
+    border: 1px solid whitesmoke;
+}
+.img_19{
+    width: 18vw;
+    margin-left: 3rem;
+    height: 38vh;
+    border: 1px solid whitesmoke;
+}
+.container4{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.8);
 }
