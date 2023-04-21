@@ -1070,4 +1070,182 @@ h4 i  {
     color:#782D50
 
    }
- 
+   #about{
+   overflow: hidden;
+   }
+ .about_item1 h2 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+padding-top: 2rem;
+    justify-content: center;
+    font-size: 2.5rem;
+ }
+ .about_item1 p{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 15vh;
+padding-top: 1rem;
+    justify-content: center;
+    font-size: 0.8rem;
+ }
+ .about_item2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+ }
+ .about_item2 img{
+    margin-left: 3rem;
+width: 40vw;
+height: 70vh;
+
+display: block;
+
+ }
+ .about_item2  h2{
+    margin-left: 8rem;
+width: 40vw;
+height: 5vh;
+margin-top: 2rem;
+display: block;
+font-size: 2rem;
+
+
+ }
+ .about_item2  p{
+    margin-left: 8rem;
+width: 40vw;
+height: 25vh;
+margin-top: 2rem;
+display: block;
+
+ }
+ .about_item2  hr{
+    margin-left: 8rem;
+width: 2vw;
+margin-top: 2rem;
+display: block;
+
+ }
+ .about_item3{
+    display:block;
+    width: 14vw;
+    height: 8vh;
+    margin-left: 8rem;
+    background-color:#782D50;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 4rem;
+    font-size: 0.8rem;
+ }
+ .about_item3:hover{
+    background-color: black;
+ }
+ .about_item4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+ }
+ #fourA{
+margin-left: 10rem;
+font-size: 2.5rem;
+font-weight: 600;
+color: black;
+
+ }
+ #fourA i{
+   display: flex;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+align-self: flex-end;
+color: white;
+background-color: #782D50;
+padding: 1rem 1rem;
+ }
+ .fourA{
+    font-size: 1rem;
+ }
+ #three{
+    margin-left: 10rem;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+   
+ }
+ #three i{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+background-color: #782D50;
+padding: 1rem 0.9rem;
+ }
+ .three{
+    font-size: 1rem;
+ }
+ #fourB{
+    margin-left: 11rem;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+ }
+ #fourB i{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+background-color: #782D50;
+padding: 1rem 1.5rem;
+ }
+ .fourB{
+    font-size: 1rem;
+ }
+ .about_item5{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #782D50;
+    padding-top: 4rem;
+    width: 100vw;
+    height: 80vh;
+    
+ }
+ .about_item5 h2{
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+ }
+ .about_item5 h3{
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+ }
+ .about_item5 p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 53vw;
+   margin-left: 20rem;
+ }
+ .about_item5 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 9vh;
+    margin-left: 40rem;
+    margin-top: 2rem;
+    background-color: white;
+    color: #782D50;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+  }
