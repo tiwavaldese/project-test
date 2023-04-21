@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: brown;
+    background-color: #782D50;
     color: white;
     padding: 1.5rem;
     
@@ -31,7 +31,7 @@ body{
 
 h1{
     text-align: center;
-    color: brown;
+    color: #782D50;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -59,7 +59,7 @@ h1{
  
 }
 .description1{
-    background-color: brown;
+    background-color: #782D50;
     color:white;
     display: flex;
     text-align:left;
@@ -85,7 +85,7 @@ h1{
     width: 100%;
     height: 15vh;
     justify-content: space-between;
-    background-color: brown;
+    background-color: #782D50;
    overflow: hidden;
 
 }
@@ -448,7 +448,7 @@ animation: em 5s linear infinite;
          
     }
      strong{
-        color: brown;
+        color:#782D50;
     }
     .container{
         margin-top: 2rem;
@@ -582,7 +582,7 @@ animation: em 5s linear infinite;
 .grid_item button{
     color: white;
     border: 1px solid rgb(69, 235, 235);
-    background-color: brown;
+    background-color: #782D50;
     width: 12vw;
     height: 8vh;
     margin-left: 7rem;
@@ -646,9 +646,47 @@ margin-left: 2rem;
 margin-top: 0rem;
  margin-bottom: 2.5rem;
 }
+.n1{
+   position: absolute;
+width: 10vw;
+height: 10vh;
+margin-left: 6rem;
+font-size: 4rem;
+opacity: 0.1;
+}
+.n2{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    margin-left: 6rem;
+    font-size: 4rem;
+   opacity: 0.1;
+    
+}
+.n3{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    margin-left: 6rem;
+    font-size: 4rem;
+    opacity: 0.1;
+}
 .row_item5 h3{
     margin-bottom: 1rem;
     font-size: 25px;
+    margin-left: 0.5rem;
+}
+h3 i{
+    display: block;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+   padding-right: 0rem;
+   color: white;
+   background-color: #782D50;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
 }
 
 .row_item5 p{
@@ -658,6 +696,7 @@ margin-top: 0rem;
     text-align:left;
     width: 35vw;
    margin-bottom: 3rem;
+   margin-left: 5rem;
 }
 .img_8{
   
@@ -740,7 +779,7 @@ margin-top: 0rem;
     left: 0;
     bottom: 10%;
     font-size: 0.9rem;
-    color: rgb(118, 62, 62);
+    color: #782D50;
     background-color: white;
     border-radius: 0.25rem ;
     width: 12vw;
@@ -763,7 +802,7 @@ margin-top: 0rem;
     bottom: 10%;
     font-size: 0.9rem;
     color: white;
-    background-color: rgb(118, 62, 62);
+    background-color:#782D50;
     border-radius: 0.25rem ;
     width: 12vw;
     height: 9vh;
@@ -779,50 +818,60 @@ margin-top: 0rem;
     background-color: black;
 }
 .content1{
-    display: flex;
-  flex-direction: row;
-    
+ display: flex;
+ flex-direction: row;
+
+  margin-left: 2rem;
     margin-top: 4rem;
 }
 .content1 p{
     
     display: flex;
+    flex-direction: column;
     border:1px solid black;
     width: 30vw;
     margin-top: 0rem;
-    flex-direction: column;
+    align-self: flex-start;
+    height: 9vh;
+   margin-left: 2rem;
+   margin-right: 15px;
+}
 
+.row_item6:hover {
+    opacity: 0.5;
+    
 }
 .img_9{
-    width: 8vw;
-    height: 20vh;    
-    border-radius: 70rem;
+    width:120px;
+    height: 120px;    
+    border-radius: 50%;
     margin-left: 10rem;
+   display: flex;
+   
+  
 }
-.content1 .img_9:hover{
-    background-color: grey;
-}
+
 .img_10{
-    width: 8vw;
-    height: 20vh;    
-    border-radius: 70rem;
+    width:120px;
+    height: 120px;    
+    border-radius: 50%;
     margin-left: 10rem;
 }
 .img_11{
-    width: 8vw;
-    height: 20vh;    
-    border-radius: 70rem;
+    width:120px;
+    height: 120px;    
+    border-radius: 50%;
     margin-left: 10rem;
 }
 .img_12{
-    width: 8vw;
-    height: 20vh;    
-    border-radius: 70rem;
+    width:120px;
+    height: 120px;    
+    border-radius: 50%;
     margin-left: 10rem;
 }
 .content2{
     color: white;
-    background-color: brown;
+    background-color: #782D50;
     width: 17vw;
     margin-top: 4rem;
    padding-top: 1rem;
@@ -846,13 +895,16 @@ margin-top: 0rem;
     margin-left: 7rem;
     margin-bottom: 3rem;
 }
+.content3 img:hover{
+    opacity: 0.5;
+   
+}
 .img_13{
     width: 25vw;
     height: 43vh;
 }
-.img_13:hover{
-    background-color: black;
-}
+
+
 .img_14{
     width: 25vw;
     margin-left: 1rem;
@@ -893,6 +945,129 @@ margin-top: 0rem;
 }
 .container4{
     width: 100vw;
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    
 }
+
+.img_20{
+   width: 18vw;
+   height: 35vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+.content6 h3{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #782D50;
+}
+.content6 hr{
+    width:3vw;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.content7 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    color: #782D50;
+}
+.content7 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.container4 ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.container4 li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
+    
+}
+.container4 p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
+.content8 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.content8 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.content8 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
+}
+
+p i{
+    display: block;
+   padding-right: 1rem;
+   color: white;
+}
+
+h4 i  {
+    display: block;
+  
+    color:#782D50;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+
+
+.content8 P:hover{
+    background-color: black;
+    color: white;
+}
+   footer{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 12vh;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 7rem;
+    font-size: 0.9rem;
+   }
+   
+   footer span{
+    color:#782D50
+
+   }
+ 
