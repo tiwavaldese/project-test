@@ -1249,3 +1249,6 @@ padding: 1rem 1.5rem;
     font-size: 0.9rem;
     border-radius: 0.25rem;
   }
+  .about_item5 span:hover{
+    background-color: black;
+  }
