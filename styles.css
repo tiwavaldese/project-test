@@ -1,0 +1,120 @@
+
+body {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0rem;
+     }
+
+#content{
+ margin-top: 0rem;
+   width: 100vw;
+    display: flex ;
+    flex-direction: row;
+    background-color: white;
+ }
+ .content_1{
+   
+    margin-left: 8rem;
+    font-size: 1.3rem;
+ }
+ .content_2{
+   
+    margin-left: 60rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.4;
+  
+ }
+ .log2:hover{
+    color: rgb(0,0,0,0.9);
+ }
+ #container_1{
+    display: flex;
+    
+   
+    flex-direction: column;
+    border: none;
+    margin-top: 2rem;
+    height: 45vh;
+    width: 50vw;
+    margin-left: 20rem;
+    background-color: white;
+    border-radius: 0.25rem 0.25rem;
+
+ }
+ .content_A{
+    display: block;
+    background-color: whitesmoke;
+    width: 49vw;
+    height: 4.5vh;
+    border: 0.1px solid gainsboro;
+    padding-top: 0.6rem;
+    padding-left: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+ }
+.email{
+    display: block;
+   
+    width: 29vw;
+    height: 5vh;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+}
+.email input{
+    
+    width: 20vw;
+    height: 5vh;
+    margin-left: 1rem;
+    border-radius: 0.25rem 0.25rem;
+    background-color: whitesmoke;
+    border: 0.1px solid gainsboro;
+}
+.password{
+    display: block;
+   margin-top: 0rem;
+    width: 29vw;
+    height: 5vh;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+}
+.password input{
+    
+    width: 20vw;
+    height: 5vh;
+    margin-left: 1rem;
+    border-radius: 0.25rem 0.25rem;
+    background-color: whitesmoke;
+    border: 0.1px solid gainsboro;
+}
+.check{
+    display: block;
+    margin-left: 14.5rem;
+}
+.check input{
+   background-color: whitesmoke;
+    margin-right: 0.5rem;
+    border: 1px solid gainsboro;
+}
+#contentA{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14.6rem;
+    margin-top: 1rem;
+}
+#contentA button{
+width: 10vh;
+height: 6vh;
+margin-right: 1rem;
+border-radius: 0.25rem 0.25rem;
+color: white;
+background-color: blue;
+border: none;
+display: block;
+margin-top: 0.5rem;
+opacity: 0.8;
+}
+#contentA button:hover{
+    background-color: blue;
+}
