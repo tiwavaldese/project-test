@@ -1105,15 +1105,10 @@ h3 i{
 
 
 
-.captionA2{
-   
 
-  
-}
 .grid_5{
     display: flex;
    
-  
 }
 
 .grid_5 img{
@@ -1121,21 +1116,33 @@ h3 i{
     padding: auto;
     margin: auto;
     width: 100vw;
+    position: relative;
 }
-
-.grid_6 h2{
+.grid_6{
+    display: flex;
+    height: 50vh;
+    width: 40vw;
+    border: 1px solid black;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+   
+    
+   
+}
+.grid_ h2{
     position:absolute;
     left: 0;
+    top: 0;
     bottom:0%;
     font-size: 1.5rem;
     font-weight: 600;
     color: white;
     background-color: blue;
-    text-transform: capitalize;
     border-radius: 0 2rem 2rem 0 ;
     width: 20%;
     height: 7vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     
@@ -2080,3 +2087,13 @@ padding-left: 1.5rem;
    
  }
 
+figure{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 23vw;
+    height: 10vh;
+    margin-bottom: 30rem;
+    margin-left: 0.2rem;
+  
+}
