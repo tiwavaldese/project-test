@@ -109,6 +109,10 @@ margin-top: 2.5rem;
     color: white;
    
 }
+nav a{
+    color: white;
+    text-decoration: none;
+}
 .nav-link{
    
     display: flex;
