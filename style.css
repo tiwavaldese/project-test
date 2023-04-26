@@ -780,14 +780,14 @@ color: #782D50;
 }
 .slide.four .img_6 {
     position: absolute;
-    top: 0;
+    
     left: 0;
-    bottom: 60%;
+    bottom: 8rem;
 width: 18rem;
 height: 20rem;
     display:flex; 
     margin-top: 10rem;
-    margin-left: 40rem;
+    margin-left: 45rem;
      
 }
 .grid_item button:hover{
@@ -1112,46 +1112,198 @@ h3 i{
 }
 
 .grid_5 img{
-    height: 50rem;
-    padding: auto;
-    margin: auto;
-    width: 100vw;
-    position: relative;
+    height: 47rem;
+    padding-bottom: 1rem;
+   margin: auto;
+   width: 100%;
 }
 .grid_6{
-    display: flex;
-    height: 50vh;
-    width: 40vw;
-    border: 1px solid black;
-    flex-direction: column;
+   
     position: absolute;
     left: 0;
-   
-    
-   
+    width: 45vw;
+    height: 35vh;
+    display:flex;
+flex-direction: column;
+
 }
-.grid_ h2{
-    position:absolute;
+.grid_6 h2{
+    position: absolute;
     left: 0;
-    top: 0;
-    bottom:0%;
-    font-size: 1.5rem;
+    bottom: 36rem;
+    font-size: 3rem;
     font-weight: 600;
     color: white;
-    background-color: blue;
-    border-radius: 0 2rem 2rem 0 ;
-    width: 20%;
-    height: 7vh;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    
-    margin-left: 24rem;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(2px);
+    width: 40vw;
+    height: 25vh;
+    display:flex;
+    margin-left: 5rem;
     padding-left: 3rem;
     padding-right: 2rem;
+padding-top: 1rem;
     
 }
+.grid_6 h3{
+    position: absolute;
+    left: 0;
+    bottom: 30rem;
+    font-size: 1.5rem;
+   
+    color: #782D50;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(2px);
+   
+    width: 40vw;
+    height: 25vh;
+    display:flex;
+    margin-left: 5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
 
+    
+}
+.grid_6 h3:hover{
+    color: white;
+}
+.grid_6i{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    bottom: 25rem;
+    font-size: 1rem;
+   
+    color: #782D50;
+    background: rgba(0, 0, 0, 0.348);
+backdrop-filter: blur(2px);
+   
+    width: 40vw;
+    height: 15vh;
+    display:flex;
+    margin-left: 5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+.grid_6i .time{
+   
+    padding-right: 2rem;
+
+}
+.grid_6 p{
+    position: absolute;
+    left: 0;
+    bottom: 15rem;
+    font-size: 1rem;
+   line-height: 1.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(2px);
+   
+    width: 40vw;
+    height: 29vh;
+    display:flex;
+    margin-left: 5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+   
+}
+.grid_7{
+    position: absolute;
+    left: 0;
+    width: 45vw;
+    height: 35vh;
+    display:flex;
+flex-direction: column;
+}
+.grid_7 h2{
+    position: absolute;
+    left: 0;
+    bottom: 47rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    width: 40vw;
+    height: 25vh;
+    display:flex;
+    margin-left: 40rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+ 
+}
+.grid_7 hr{
+    position: absolute;
+    left: 0;
+    bottom: 51rem;
+    
+    font-weight: 600;
+    color: white;
+    width: 0.1vw;
+    
+    display:flex;
+    margin-left: 44rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+ 
+}
+.grid_7 p{
+    position: absolute;
+    left: 0;
+    bottom: 38rem;
+    font-size: 1.2rem;
+  line-height: 1.5rem;
+    color: white;
+    width: 35vw;
+    height: 30vh;
+    display:flex;
+    margin-left: 45rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+ 
+}
+.grid_7 p:hover{
+    color: #782D50;
+}
+.grid_7i {
+    position: absolute;
+    left: 0;
+    bottom: 30rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #782D50;
+    width: 40vw;
+    height: 25vh;
+    display:flex;
+    margin-left: 45rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+ 
+}
+.grid_7i .time{
+    padding-right: 2rem;
+}
+.grid_7 button{
+    position: absolute;
+    left: 0;
+    bottom: 43rem;
+    font-size: 1rem;
+    
+    color: white;
+    background-color: #782D50;
+    width: 7vw;
+    height: 12vh;
+    display:flex;
+    margin-left: 40rem;
+ border: none;
+    padding-right: 2rem;
+ 
+}
+.grid_7 .Date{
+    margin-top: 1.5rem;
+  
+ }
 .content5{
     margin-top: 5rem;
     display: flex;
