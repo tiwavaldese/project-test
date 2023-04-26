@@ -1,10 +1,12 @@
 
 body {
-    background-color: whitesmoke;
+  
+    background: linear-gradient(to right, #155799, #159957); 
     width: 100vw;
     height: 100vh;
     margin-top: 0rem;
      }
+
 
 #content{
  margin-top: 0rem;
@@ -12,6 +14,7 @@ body {
     display: flex ;
     flex-direction: row;
     background-color: white;
+    margin-left: 0rem;
  }
  .content_1{
    
@@ -39,7 +42,7 @@ body {
     height: 45vh;
     width: 50vw;
     margin-left: 20rem;
-    background-color: white;
+    background: linear-gradient(to right, #155799, #159957); 
     border-radius: 0.25rem 0.25rem;
 
  }
@@ -61,6 +64,7 @@ body {
     height: 5vh;
     margin-bottom: 2rem;
     margin-left: 8rem;
+    color: white;
 }
 .email input{
     
@@ -78,6 +82,7 @@ body {
     height: 5vh;
     margin-bottom: 2rem;
     margin-left: 10rem;
+    color: white;
 }
 .password input{
     
@@ -91,6 +96,7 @@ body {
 .check{
     display: block;
     margin-left: 14.5rem;
+    color: white;
 }
 .check input{
    background-color: whitesmoke;
@@ -109,7 +115,7 @@ height: 6vh;
 margin-right: 1rem;
 border-radius: 0.25rem 0.25rem;
 color: white;
-background-color: blue;
+background-color: black;
 border: none;
 display: block;
 margin-top: 0.5rem;
@@ -117,4 +123,7 @@ opacity: 0.8;
 }
 #contentA button:hover{
     background-color: blue;
+}
+#contentA a{
+    color: rgb(74, 146, 235);
 }
