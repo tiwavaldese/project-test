@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <header>
         
         <div>
             <p class="description"><em>The quality of education remains a major challenge in Africa and repetition and drop-out rates are high. More than one student in ten repeats at least one grade in primary school in more than half of all countries in sub-Saharan Africa and particularly in Cameroon. We are seeking funds that will design and implement a program in Cameroon, particularly the northwest region, that would minimize the out-of-pocket costs of schooling, especially for the neediest children and families.</em></p>
@@ -54,7 +54,8 @@
               </ul>
              </nav>
           </div>
-         
+         </header>
+         <main>
     <section id="contact us">
         <div class="events_item1">
             <h2>Contact</h2>
@@ -65,9 +66,9 @@
             <h2>Contact Details</h2>
             <hr>
             
-            <p> <i class="fa fa-map-marker"></i>UpStation, Bamenda</p>
-            <p> <i class="fa fa-phone"></i>+237 653230813</p>
-            <p> <i class="fa fa-envelope"></i>hellep2020@gmail.com</p>
+            <p> <span class="fa fa-map-marker"></span>UpStation, Bamenda</p>
+                <p> <span class="fa fa-envelope"></span>hellep2020@gmail.com</p>
+                <p> <span class="fa fa-phone"></span>+237 653230813</p>
            
         </div>
         
@@ -78,17 +79,20 @@
           
         </div>
         <div class="contact_item3">
-            <label><input id="name" placeholder="Enter Name"></label>
-            <label><input id="email" placeholder="Enter Email"></label>
-            <label><input id="subject" placeholder="Subject"></label>
-            <label><input id="number" placeholder="Phone Number"></label>
-        
+            <div class="contact_item3A">
+            <label for="name"><input id="name" type="text"class="name" placeholder="Enter Name" required></label>
+            <label for="email"><input id="email" type="text" class="email" placeholder="Enter Email" required></label>
+        </div>
+    <div class="contact_item3B">
+            <label for="subject"><input id="subject" type="text" class="subject" placeholder="Subject" required></label>
+            <label for="number"><input id="number" type="number" class="number" placeholder="Phone Number" required></label>
+        </div>
         </div>
         <div class="contact_item4">
-            <textarea placeholder="Enter Your Message"></textarea>
+            <textarea id="message" type="text" class="message" placeholder="Enter Your Message" required></textarea>
         </div>
         <div class="contact_item5">
-            <button required>SEND MESSAGE</button>
+            <button type="submit">SEND MESSAGE</button>
         </div>
         <div class="contact_item6">
             <p><em>Note: As you submit please kindly check your mailbox for a detailed response.</em></p>
@@ -128,10 +132,11 @@
         
     </div>
 </section>
+</main>
 <footer><p>Copyright 2022 © <span>Help The Less Privilege (HELLEP) SUSTAINING LIVES</span></p></footer>
-</div>
+
 
           
-    </main>
+    
 </body>
 </html>
