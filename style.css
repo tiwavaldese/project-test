@@ -4,12 +4,17 @@
     box-sizing: border-box;
     
 }
+html{
+    height: -webkit-fill-available ;
+}
 body{
   min-width: 100vw;
   max-width: 350vw;
-    height: 100vh;
+  height: 100vh;
     font-size: 16px ;
     font-family: Arial, Helvetica, sans-serif;
+   height: -webkit-fill-available ;
+  
     position: relative;
     margin: auto;
     align-items: center;
@@ -87,8 +92,7 @@ h1{
     height: 15vh;
     justify-content: space-between;
     background-color: #782D50;
-   overflow: hidden;
-
+  
 }
 ul{
     display: flex;
@@ -174,6 +178,10 @@ animation: em 5s linear infinite;
         transform: translateX(400%);
     }
     
+}
+main{
+    flex: 1;
+    overflow: scroll;
 }
 .slider_container{
     position: relative;
@@ -514,12 +522,56 @@ animation: em 5s linear infinite;
         display: block;
         
     }
+    #container{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        display: flex; 
+        position: relative;
+        bottom: 7rem;
+    }
+   
+    #container h2{
+        font-size: 35px;
+         text-align: center;
+         display: block;
+         margin-left: 10rem;
+     }
+     #container p{
+        width: 70vw;
+        text-align: center;
+        display: block;
+    justify-content: space-between;
+    align-items: center;
+ letter-spacing: 0px;
+ line-height: 25px;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+    }
+#container hr{
+
+    width: 2rem;
+    text-align: center;
+    margin-left: 39rem;
+    bottom: 70%;
+    margin-top: 1.5rem;
+}
+.content5A {
+    position: relative;
+    display: flex;
+    bottom: 7rem;
+    margin-top: 5rem;
+    flex-direction: row;
+    margin-left: 12rem;
+   
+}
     .container h2{
        font-size: 35px;
         text-align: center;
         display: block;
         
     }
+
     .container p{
         width: 70vw;
         text-align: center;
@@ -540,34 +592,34 @@ animation: em 5s linear infinite;
     margin-top: 1.5rem;
 }
 .img_2{
-    width: 30vw;
+    width: 22rem;
     background-color: whitesmoke;
-    border-radius: 0rem 0.5rem;
+    border-radius: 0.25rem  0.25rem  0 0;
 }
 .img_2:hover{
     background-color: whitesmoke;
     
 }
 .img_3{
-    width: 30vw;
+    width: 22rem;
     background-color: whitesmoke;
-    border-radius: 0rem 0.5rem;
+    border-radius: 0.25rem  0.25rem  0 0;
 }
 .img_3:hover{
     background-color: whitesmoke;
 }
 .img_4{
-    width: 30vw;
+    width: 22rem;
     background-color: whitesmoke;
-    border-radius: 0rem 0.5rem;
+    border-radius: 0.25rem  0.25rem  0 0;
 }
 .img_4:hover{
     background-color: whitesmoke;
 }
 .img_5{
-    width: 30vw;
+    width: 22rem;
     background-color: whitesmoke;
-    border-radius: 0rem 0.5rem;
+    border-radius: 0.25rem  0.25rem  0 0;
 }
 .img_5:hover{
     background-color: whitesmoke;
@@ -579,10 +631,25 @@ animation: em 5s linear infinite;
    justify-content: center;
    margin-top: 3rem;
    height: 100vh;
-   width: 100%;
-   margin-left: 13rem;
-   
-  
+   width: 80rem;
+   margin-left: 14rem;
+margin-bottom: 1rem;
+}
+.content_one{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   margin-top: 18rem;
+   height: 100vh;
+   width: 80rem;
+   margin-left: 5rem;
+margin-bottom: 20rem;
+}
+.contentA{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
 }
 .content:hover{
     color: grey;
@@ -608,19 +675,19 @@ animation: em 5s linear infinite;
 }
 .grid_item1{
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: rem;
     display: block;
     justify-content: center;
-    width: 30rem;
-    height: 40rem;
+    width: 22rem;
+    height: 43rem;
     background-color: whitesmoke; 
-    margin-left: 9rem;
+    margin-left: 1rem;
    border-radius: 0.5rem ;
 }
 .grid_item1 p{
     line-height: 25px;
     font-size: 0.9rem;
-    width: 25rem;
+    width: 22rem;
     padding: 0.5rem 2rem;
     text-align: justify;
    
@@ -653,13 +720,14 @@ color: #782D50;
     justify-content: center;
     background-color: whitesmoke; 
     margin-left: 1.5rem;
-    height: 37rem;
+    height: 39rem;
     border-radius: 0.5rem ;
+    width: 22rem;
 }
 .grid_item2 p{
     line-height: 25px;
     font-size: 0.9rem;
-    width: 25rem;
+    width: 22rem;
     padding: 0.5rem 2rem;
     text-align: justify;
 }
@@ -691,16 +759,16 @@ color: #782D50;
     display: block;
     justify-content: center;
    align-items: center;
-   width: 100%;
+   width: 22rem;
    background-color: whitesmoke; 
    margin-left: 1.5rem;
-   height: 37rem;
+   height: 39rem;
    border-radius: 0.5rem ;
 }
 .grid_item3 p{
     line-height: 25px;
     font-size: 0.9rem;
-    width: 25rem;
+    width: 22rem;
     padding: 0.5rem 2rem;
     text-align: justify;
 }
@@ -731,16 +799,17 @@ color: #782D50;
     margin-bottom: 1rem;
     display: block;
     justify-content: center;
-    width: 100%;  
+    width: 22rem;  
     background-color: whitesmoke; 
-    margin-left: 1.5rem;
-    height: 37rem;
+    margin-left: 3rem;
+    height: 45rem;
     border-radius: 0.5rem ;
 }
 .grid_item4 p{
     line-height: 25px;
     font-size: 0.9rem;
-    width: 25rem;
+    width: 22rem;
+    height: 10rem;
     padding: 0.5rem 2rem;
     text-align: justify;
 }
@@ -755,15 +824,15 @@ color: #782D50;
 font-size: 0.9rem;
 padding-left: 2rem;
 color: #782D50;
-
+height: 10rem;
  }
  .grid_item4 .comment{
     margin-top:2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 font-size: 0.9rem;
 padding-left: 1.5rem;
 color: #782D50;
-
+height: 10rem;
  }
 .grid_item button{
     color: white;
@@ -774,7 +843,7 @@ color: #782D50;
     margin-left: 7rem;
     border-radius: 5px;
     margin-top: 7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .slide.four .img{
     height: 30rem;
@@ -1007,91 +1076,143 @@ h3 i{
 }
 .content1{
  display: flex;
- flex-direction: row;
-
-  margin-left: 2rem;
+ flex-direction: column;
+width: 90rem;
+  margin-left: 1rem;
     margin-top: 4rem;
 }
-.content1 p{
-    
+.row_item6 p{
+    padding-left: 1rem;
+    width: 28vw;
+    padding-bottom: 6rem;
+    height: 2rem;
+   margin-left: 15rem;
+  line-height: 1.5rem;
+   font-size: 0.9rem;
+}
+.row_item6 span{
     display: flex;
-    flex-direction: column;
     
-    width: 30vw;
-    margin-top: 0rem;
-    align-self: flex-start;
-    height: 15vh;
-   margin-left: 2rem;
-   margin-right: 15px;
-   line-height: 25px;
-   font-size: 1rem;
+    position: relative;
+    bottom: 5rem;
+}
+.row_item6 strong{
+    flex-direction: row;
+    position: relative;
+    bottom: 0.9rem;
 }
 
 .row_item6:hover {
     opacity: 0.5;
     
 }
+#content1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0rem;
+}
+#content1i{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 6rem;
+}
 .img_9{
     width:120px;
     height: 120px;    
     border-radius: 50%;
-    margin-left: 10rem;
+    margin-left: 6rem;
    display: flex;
-   
-  
+ float: left;
+ 
 }
 
 .img_10{
     width:120px;
     height: 120px;    
     border-radius: 50%;
-    margin-left: 10rem;
+    margin-left: 6rem;
+    display: flex;
+    float: left;
 }
 .img_11{
     width:120px;
     height: 120px;    
     border-radius: 50%;
-    margin-left: 10rem;
+    margin-left: 6rem;
+    display: flex;
+    float: left;
 }
 .img_12{
     width:120px;
     height: 120px;    
     border-radius: 50%;
-    margin-left: 10rem;
+    margin-left: 6rem;
+    display: flex;
+    float: left;
 }
 .content2{
     color: white;
     background-color: #782D50;
     width: 17vw;
-    margin-top: 4rem;
+   
    padding-top: 1rem;
    padding-bottom: 1rem;
    padding-left: 2.5rem;
    padding-right: 1rem;
     height: 8vh;
-    margin-bottom: 3rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
     border-radius: 0.25rem;
     font-size: 0.9rem;
+   position: relative;
+   display: flex;
+   bottom: 13rem;
+   
 }
 .content2:hover{
     background-color: black;
 }
 
 .content3{
-    margin-top: 5rem;
+    bottom: 3rem;
+    position: relative;
     display: flex;
     flex-direction: row;
     margin-left: 7rem;
-    margin-bottom: 3rem;
+   
 }
 .content3 img:hover{
     opacity: 0.5;
    
 }
+.gallery3{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+}
+.gallery3 img{
+    width: 17rem;
+    height: 12rem;
+}
+.gallery3A{
+    display: flex;
+   
+}
+.gallery3B{
+    display: flex;
+   
+}
+.gallery3C{
+    display: flex;
+    
+}
+
 .img_13{
     width: 25vw;
     height: 43vh;
+    margin-left: 1rem;
 }
 
 
@@ -1446,7 +1567,7 @@ h4 i  {
     color: white;
 }
    footer{
-    display: block;
+    display: flex;
     background-color: black;
     width: 100%;
     height: 12vh;
@@ -1455,15 +1576,15 @@ h4 i  {
     padding-bottom: 2rem;
     padding-left: 7rem;
     font-size: 0.9rem;
+    position: relative;
+    bottom: 2rem;
    }
    
    footer span{
     color:#782D50
 
    }
-   #about{
-   overflow: hidden;
-   }
+  
  .about_item1 h2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
@@ -1914,6 +2035,7 @@ color: #782D50;
     margin-left: 6rem;
     width: 40vw;
     height: 10vh;
+    margin-bottom: 4rem;
  }
  .Btn{
     width: 7vw;
@@ -2128,13 +2250,25 @@ padding-left: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
  }
+
  .contact_item1 p{
-    margin-left: 8rem;
+    margin-left: 10rem;
     width: 2rem;
     margin-top: 1rem;
-   width: 100vw;
+   width: 25vw;
    margin-bottom: 2rem;
  }
+ .contact_item1 span{
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #782D50;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+ }
+
  .contact_item2 h2{
     margin-left: 6rem;
     font-size: 2.2rem;
@@ -2164,6 +2298,15 @@ padding-left: 1.5rem;
     margin-left: 8rem;
     margin-bottom: 0.5rem;
  }
+ .contact_item3A{
+    display: flex;
+    flex-direction: row;
+ }
+ .contact_item3B{
+    display: flex;
+    flex-direction: row;
+   
+ }
  .contact_item3 #name{
     width: 40vw;
     height: 8vh;
@@ -2184,6 +2327,7 @@ padding-left: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 0.25rem 0.25rem;
     font-size: 1.1rem;
+    margin-left: 1.5rem;
  }
  
  .contact_item3 #subject{
@@ -2206,6 +2350,7 @@ padding-left: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 0.25rem 0.25rem;
     font-size: 1.1rem;
+    margin-left: 1.5rem;
  }
  .contact_item4 textarea{
     width: 80vw;
