@@ -8,16 +8,21 @@ html{
     height: -webkit-fill-available ;
 }
 body{
+    display: flex;
+  flex-direction: column;
   min-width: 100vw;
-  max-width: 350vw;
+  max-width: 1448vw;
   height: 100vh;
     font-size: 16px ;
     font-family: Arial, Helvetica, sans-serif;
    height: -webkit-fill-available ;
-  
-    position: relative;
-    margin: auto;
+ margin: 0 auto;
     align-items: center;
+    padding: 0 auto;
+}
+main{
+    flex: 1;
+    
 }
 .description{
     height: 5vh;
@@ -26,7 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300vh;
+    width: 250rem;
     background-color: #782D50;
     color: white;
     padding: 1.5rem;
@@ -52,9 +57,9 @@ h1{
     flex-direction: row;
     width: 100%;
     display: flex;
-    margin-top: 5rem;
-    justify-content: flex-start;
-    
+    margin-top: 2rem;
+    justify-content: center;
+ margin-left: 5rem;
    
     
 }
@@ -120,13 +125,14 @@ nav a{
 .nav-link{
    
     display: flex;
-    width: 100%;
-    height: 0vh;
-    justify-content: flex-start;
+    width: 100rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
-    padding-bottom: 7rem;
-    
+    padding-bottom: 3rem;
+    margin-left: 80rem;
    
    font-weight: bold;
    margin-top: 0rem;
@@ -179,21 +185,19 @@ animation: em 5s linear infinite;
     }
     
 }
-main{
-    flex: 1;
-    overflow: scroll;
-}
+
 .slider_container{
     position: relative;
-    width: 100vw;
+    width: 120vw;
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: center;
     overflow: hidden;
     margin-top: 0rem;
     padding-top: 0rem;
     padding-bottom: 6rem;
+    
    
 }
 .slider{
@@ -206,12 +210,14 @@ main{
     align-items: center;
     justify-content: space-between;
     animation: 20s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+  
 }
 .slide{
     position: relative;
     min-width: 100vw;
     height: 85vh;
     display: flex;
+    
 }
 
 .slide .caption{
@@ -442,7 +448,7 @@ main{
     .slide .captionAA{
         position: absolute;
         left: 0;
-        bottom: 65%;
+        bottom: 60%;
         font-size: 2.5rem;
         font-weight: 600;
         color: white;
@@ -451,7 +457,7 @@ main{
         height: 25vh;
         display:flex;
         margin-top: 4rem;
-        margin-left: 5rem;
+        margin-left: 15rem;
         padding-left: 3rem;
         padding-right: 2rem;
      padding-top: 1.5rem;
@@ -465,12 +471,12 @@ main{
         font-weight: bold;
         color: white;
 
-        width: 50%;
+        width:33rem;
         height: 7vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 5rem;
+        margin-left: 14rem;
         padding-left: 3rem;
         padding-right: 2rem;
 
@@ -487,7 +493,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 5rem;
+        margin-left: 15rem;
         margin-top: 3rem;
         line-height: 1.5rem;
         padding-left: 2rem;
@@ -497,12 +503,12 @@ main{
     .slide .captionCC{
         position: absolute;
         left: 0;
-        bottom: 35%;
+        bottom: 28%;
         font-size: 3rem;
         width: 25rem;
 
         display: flex;
-        margin-left: 45rem;
+        margin-left: 53rem;
      
         padding-left: 4rem;
         padding-right: 2rem;
@@ -516,7 +522,7 @@ main{
         color:#782D50;
     }
     .container{
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
         text-align: center;
         display: block;
@@ -529,6 +535,7 @@ main{
         display: flex; 
         position: relative;
         bottom: 7rem;
+        margin-left: 10rem;
     }
    
     #container h2{
@@ -580,14 +587,15 @@ main{
     align-items: center;
  letter-spacing: 0px;
  line-height: 25px;
-  margin-left: 15rem;
+  margin-left: 18rem;
   margin-top: 1.5rem;
+  font-size: 0.9rem;
     }
 .container hr{
 
     width: 2%;
     text-align: center;
-    margin-left: 40rem;
+    margin-left: 45rem;
     bottom: 70%;
     margin-top: 1.5rem;
 }
@@ -632,7 +640,7 @@ main{
    margin-top: 3rem;
    height: 100vh;
    width: 80rem;
-   margin-left: 14rem;
+   margin-left: 22rem;
 margin-bottom: 1rem;
 }
 .content_one{
@@ -840,9 +848,9 @@ height: 10rem;
     background-color: #782D50;
     width: 12vw;
     height: 8vh;
-    margin-left: 7rem;
+    margin-left: 15.5rem;
     border-radius: 5px;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-bottom: 1rem;
 }
 .slide.four .img{
@@ -850,6 +858,8 @@ height: 10rem;
     padding: auto;
     margin: auto;
     width: 100vw;
+    display: flex;
+   
 }
 .slide.four .img_6 {
     position: absolute;
@@ -860,7 +870,7 @@ width: 18rem;
 height: 20rem;
     display:flex; 
     margin-top: 10rem;
-    margin-left: 45rem;
+    margin-left: 55rem;
      
 }
 .grid_item button:hover{
@@ -870,6 +880,8 @@ height: 20rem;
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
+    margin-left: 10rem;
+    width: 100vw;
 }
 .img_7{
 margin-left: 7rem;
@@ -897,6 +909,10 @@ margin-left: 2rem;
     margin-left: 0.5rem;
 margin-top: 0rem;
  margin-bottom: 2.5rem;
+}
+.row_item5 span{
+    margin-left: 1rem;
+    width: 12rem;
 }
 .n1{
    position: absolute;
@@ -926,7 +942,7 @@ opacity: 0.1;
 .row_item5 h3{
     margin-bottom: 1rem;
     font-size: 25px;
-    margin-left: 0.5rem;
+    margin-left: 0rem;
 }
 h3 i{
     display: block;
@@ -985,7 +1001,7 @@ h3 i{
     justify-content: center;
     align-items: center;
     
-    margin-left: 24rem;
+    margin-left: 30rem;
     padding-left: 3rem;
     padding-right: 2rem;
 
@@ -1005,7 +1021,7 @@ h3 i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 27rem;
+    margin-left: 33rem;
     padding-left: 3rem;
     padding-right: 2rem;
 
@@ -1019,12 +1035,12 @@ h3 i{
     color: white;
     text-transform: capitalize;
     border-radius: 0 2rem 2rem 0 ;
-    width: 60%;
+    width: 50rem;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15rem;
+    margin-left: 25rem;
     padding-left: 3rem;
     padding-right: 2rem;
     text-align: center;
@@ -1044,7 +1060,7 @@ h3 i{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30rem;
+    margin-left: 38rem;
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
@@ -1066,7 +1082,7 @@ h3 i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 43rem;
+    margin-left: 51rem;
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
@@ -1078,7 +1094,7 @@ h3 i{
  display: flex;
  flex-direction: column;
 width: 90rem;
-  margin-left: 1rem;
+  margin-left: 10rem;
     margin-top: 4rem;
 }
 .row_item6 p{
@@ -1161,7 +1177,7 @@ width: 90rem;
    padding-left: 2.5rem;
    padding-right: 1rem;
     height: 8vh;
-    margin-left: 7rem;
+    margin-left: 18rem;
     border-radius: 0.25rem;
     font-size: 0.9rem;
    position: relative;
@@ -1178,7 +1194,8 @@ width: 90rem;
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-left: 7rem;
+    margin-left: 18rem;
+    width: 100vw;
    
 }
 .content3 img:hover{
@@ -1429,11 +1446,40 @@ flex-direction: column;
     margin-top: 1.5rem;
   
  }
+ 
+.content4 h2{
+    font-size: 35px;
+     text-align: center;
+     display: block;
+     
+ }
+
+ .content4 p{
+     width: 70vw;
+     text-align: center;
+     display: block;
+ justify-content: space-between;
+ align-items: center;
+letter-spacing: 0px;
+line-height: 25px;
+margin-left: 21rem;
+margin-top: 1.5rem;
+font-size: 0.9rem;
+ }
+.content4 hr{
+
+ width: 0rem;
+ text-align: center;
+ margin-left: 35rem;
+ bottom: 70%;
+ margin-top: 1.5rem;
+}
+
 .content5{
     margin-top: 5rem;
     display: flex;
     flex-direction: row;
-    margin-left: 12rem;
+    margin-left: 23rem;
     margin-bottom: 3rem;
 }
 .img_17{
@@ -1455,13 +1501,17 @@ flex-direction: column;
     height: 38vh;
     border: 1px solid whitesmoke;
 }
+
+
+
 .container4{
-    width: 100vw;
+    width: 105vw;
     height: 55vh;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: row;
-    
+    margin-left: 7rem;
+    padding-left: 5rem;
 }
 
 .img_20{
@@ -1569,15 +1619,16 @@ h4 i  {
    footer{
     display: flex;
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 12vh;
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 7rem;
+    padding-left: 10rem;
     font-size: 0.9rem;
     position: relative;
     bottom: 2rem;
+    margin-left: 0rem;
    }
    
    footer span{
