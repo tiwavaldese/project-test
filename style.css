@@ -2485,6 +2485,34 @@ color: #782D50;
    margin-left: 7rem;
    width: 17vw;
 }
+
+.events_container1 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.events_container1 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.events_container1 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
+}
 #projects .events_item1{
 margin-left: 4rem;
 }
@@ -2523,6 +2551,34 @@ margin-left: 4rem;
    margin-top: 1.5rem;
    margin-left: 7rem;
    width: 17vw;
+}
+
+.projects_container1 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.projects_container1 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.projects_container1 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
 }
  .contact_item1 h2{
     margin-left: 6rem;
