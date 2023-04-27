@@ -1,4 +1,7 @@
 
+html{
+    height: -webkit-fill-available ;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -6,9 +9,14 @@ body {
     width: 100vw;
     height: 100vh;
     margin-top: 0rem;
+    height: -webkit-fill-available ;
      }
 
-
+     main{
+        flex: 1;
+        overflow: scroll;
+    }
+   
 #content{
  margin-top: 0rem;
    width: 100vw;
