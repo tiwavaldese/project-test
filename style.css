@@ -1202,50 +1202,6 @@ width: 90rem;
     opacity: 0.5;
    
 }
-.gallery3{
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    margin-left: 7rem;
-    margin-bottom: 3rem;
-}
-.gallery3 img{
-    width: 17rem;
-    height: 12rem;
-}
-.gallery3A{
-    display: flex;
-   
-}
-.gallery3B{
-    display: flex;
-   
-}
-.gallery3C{
-    display: flex;
-    
-}
-
-.img_13{
-    width: 25vw;
-    height: 43vh;
-    margin-left: 1rem;
-}
-
-
-.img_14{
-    width: 25vw;
-    margin-left: 1rem;
-    height: 43vh;
-}
-.img_15{
-    width: 25vw;
-    margin-left: 1rem;
-    height: 43vh;
-}
-
-
-
 
 
 .grid_5{
@@ -2580,14 +2536,129 @@ margin-left: 4rem;
     margin-top: 1.5rem;
     height: 7vh;
 }
- .contact_item1 h2{
+#gallery .events_item1{
+    margin-left: 4rem;
+}
+
+.gallery3{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-bottom: 3rem;
+}
+.gallery3 img{
+    width: 17rem;
+    height: 12rem;
+}
+.gallery3A{
+    display: flex;
+   
+}
+.gallery3B{
+    display: flex;
+   
+}
+.gallery3C{
+    display: flex;
+    
+}
+
+.img_13{
+    width: 25vw;
+    height: 43vh;
+    margin-left: 1rem;
+}
+
+
+.img_14{
+    width: 25vw;
+    margin-left: 1rem;
+    height: 43vh;
+}
+.img_15{
+    width: 25vw;
+    margin-left: 1rem;
+    height: 43vh;
+}
+.gallery_container{
+    width: 105vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 0rem;
+}
+
+
+.gallery_container ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.gallery_container li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
+    
+}
+.gallery_container p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
+
+.gallery_container1 h3{
+    margin-top: 3rem;
     margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.gallery_container1 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.gallery_container1 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
+}
+#contact .events_item1{
+    margin-left: 8rem;
+    width: 100vw;
+}
+.contact_item1{
+    margin-left: 7rem;
+}
+ .contact_item1 h2{
+    margin-left: 10rem;
     font-size: 2.2rem;
     font-weight: bold;
     margin-top: 2rem;
  }
  .contact_item1 hr{
-    margin-left: 6rem;
+    margin-left: 10rem;
     width: 2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -2611,6 +2682,9 @@ margin-left: 4rem;
     font-size: 1.4rem;
  }
 
+ .contact_item2{
+    margin-left: 11rem;
+ }
  .contact_item2 h2{
     margin-left: 6rem;
     font-size: 2.2rem;
@@ -2637,7 +2711,7 @@ margin-left: 4rem;
     display: flex;
     flex-direction: column;
     line-gap-override: 1rem;
-    margin-left: 8rem;
+    margin-left: 18rem;
     margin-bottom: 0.5rem;
  }
  .contact_item3A{
@@ -2702,12 +2776,12 @@ margin-left: 4rem;
     border: none;
     margin-bottom: 1rem;
     border-radius: 0.25rem 0.25rem;
-    margin-left: 8rem;
+    margin-left: 18rem;
     padding-top: 1rem;
     font-size: 1.1rem;
  }
  .contact_item5 button{
-    margin-left: 8rem;
+    margin-left: 18rem;
     width: 14vw;
     height: 8vh;
     margin-bottom: 3rem;
@@ -2724,7 +2798,7 @@ margin-left: 4rem;
     margin-bottom: 3rem;
  }
  .contact_item6 em{
-    margin-left: 8rem;
+    margin-left: 18rem;
    
     font-size: 1.2rem;
    
