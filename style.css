@@ -569,7 +569,7 @@ animation: em 5s linear infinite;
     bottom: 7rem;
     margin-top: 5rem;
     flex-direction: row;
-    margin-left: 12rem;
+    margin-left: 20rem;
    
 }
     .container h2{
@@ -651,7 +651,7 @@ margin-bottom: 1rem;
    margin-top: 18rem;
    height: 100vh;
    width: 80rem;
-   margin-left: 5rem;
+   margin-left: 10rem;
 margin-bottom: 20rem;
 }
 .contentA{
@@ -1268,11 +1268,12 @@ width: 90rem;
     display:flex;
 flex-direction: column;
 
+
 }
 .grid_6 h2{
     position: absolute;
     left: 0;
-    bottom: 36rem;
+    bottom: 42rem;
     font-size: 3rem;
     font-weight: 600;
     color: white;
@@ -1290,7 +1291,7 @@ padding-top: 1rem;
 .grid_6 h3{
     position: absolute;
     left: 0;
-    bottom: 30rem;
+    bottom: 35rem;
     font-size: 1.5rem;
    
     color: #782D50;
@@ -1314,7 +1315,7 @@ padding-top: 1rem;
     flex-direction: row;
     position: absolute;
     left: 0;
-    bottom: 25rem;
+    bottom: 30rem;
     font-size: 1rem;
    
     color: #782D50;
@@ -1337,7 +1338,7 @@ backdrop-filter: blur(2px);
 .grid_6 p{
     position: absolute;
     left: 0;
-    bottom: 15rem;
+    bottom: 20rem;
     font-size: 1rem;
    line-height: 1.5rem;
     color: white;
@@ -1345,12 +1346,12 @@ backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
    
     width: 40vw;
-    height: 29vh;
+    height: 28vh;
     display:flex;
     margin-left: 5rem;
     padding-left: 3rem;
     padding-right: 2rem;
-   
+   padding-top: 1rem;
 }
 .grid_7{
     position: absolute;
@@ -1379,11 +1380,9 @@ flex-direction: column;
     position: absolute;
     left: 0;
     bottom: 51rem;
-    
     font-weight: 600;
     color: white;
-    width: 0.1vw;
-    
+    width: 1rem;
     display:flex;
     margin-left: 44rem;
     padding-left: 3rem;
@@ -1468,9 +1467,9 @@ font-size: 0.9rem;
  }
 .content4 hr{
 
- width: 0rem;
+ width: 2rem;
  text-align: center;
- margin-left: 35rem;
+ margin-left: 50rem;
  bottom: 70%;
  margin-top: 1.5rem;
 }
@@ -1635,6 +1634,12 @@ h4 i  {
     color:#782D50
 
    }
+   .about_item1 {
+   
+    width: 100vw;
+    height: 30vh;
+    margin-left: 7rem;
+   }
   
  .about_item1 h2 {
     display: flex;
@@ -1646,6 +1651,7 @@ h4 i  {
 padding-top: 2rem;
     justify-content: center;
     font-size: 2.5rem;
+   
  }
  .about_item1 p{
     display: flex;
@@ -1653,7 +1659,7 @@ padding-top: 2rem;
     color: white;
     text-align: center;
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
 padding-top: 1rem;
     justify-content: center;
     font-size: 0.8rem;
@@ -1662,6 +1668,8 @@ padding-top: 1rem;
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
+    width: 100vw;
+    margin-left: 8rem;
  }
  .about_item2 img{
     margin-left: 3rem;
@@ -1687,7 +1695,7 @@ font-size: 2rem;
  .about_item2  p{
     margin-left: 6rem;
 width: 40vw;
-height: 35vh;
+height: 30vh;
 margin-top: 2rem;
 display: block;
 line-height: 25px;
@@ -1706,7 +1714,7 @@ display: block;
     display:block;
     width: 14vw;
     height: 8vh;
-    margin-left: 8rem;
+    margin-left: 16rem;
     background-color:#782D50;
     color: white;
     padding: 1rem 2rem;
@@ -1720,11 +1728,14 @@ display: block;
  .about_item4{
     display: flex;
     flex-direction: row;
-    margin-left: 5rem;
+    margin-left: 15rem;
     margin-bottom: 3rem;
+    margin-top: 5rem;
  }
  #fourA{
-margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+margin-left: 0rem;
 font-size: 2.5rem;
 font-weight: 600;
 color: black;
@@ -1735,13 +1746,20 @@ color: black;
    width: 70px;
    height: 70px;
    border-radius: 50%;
-align-self: flex-end;
 color: white;
 background-color: #782D50;
-padding: 1rem 1rem;
+padding: 1rem 1.3rem;
+font-size: 1.9rem;
+ }
+ #fourA span{
+margin-top: 1rem;
+margin-left: 1rem;
+
  }
  .fourA{
     font-size: 1rem;
+    margin-top: 4rem;
+    margin-right: 0rem;
  }
  #three{
     margin-left: 10rem;
@@ -1751,16 +1769,27 @@ padding: 1rem 1rem;
    
  }
  #three i{
-    display: block;
+    display: flex;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     color: white;
 background-color: #782D50;
-padding: 1rem 0.9rem;
+padding: 1rem 1.2rem;
+font-size: 1.9rem;
  }
+ #three span{
+    margin-top: 0rem;
+    margin-left: 5rem;
+    padding-bottom: 3rem;
+   position: relative;
+   bottom: 4rem;
+     }
  .three{
     font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    padding-right: 2rem;
  }
  #fourB{
     margin-left: 11rem;
@@ -1769,16 +1798,27 @@ padding: 1rem 0.9rem;
     font-weight: 600;
  }
  #fourB i{
-    display: block;
+    display: flex;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     color: white;
 background-color: #782D50;
 padding: 1rem 1.5rem;
+font-size: 1.9rem;
  }
+ #fourB span{
+    margin-top: 0rem;
+    margin-left: 5rem;
+    padding-bottom: 3rem;
+   position: relative;
+   bottom: 4rem;
+     }
  .fourB{
     font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    padding-right: 4rem;
  }
  .about_item5{
     display: block;
@@ -1788,6 +1828,7 @@ padding: 1rem 1.5rem;
     padding-top: 4rem;
     width: 100vw;
     height: 90vh;
+    margin-left: 7.2rem;
     
  }
  .about_item5 h2{
@@ -1829,6 +1870,7 @@ font-size: 1rem;
     display: flex;
     flex-direction: row;
     margin-top: 3rem;
+    margin-left: 8rem;
   }
   .about_item6 h2{
     display: block;
@@ -1892,6 +1934,10 @@ background-color: whitesmoke;
  font-size: 0.9rem;
  
   }
+  .blog_item1 {
+    width: 100vw;
+    margin-left: 4rem;
+  }
   .blog_item1 h2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
@@ -1918,6 +1964,7 @@ padding-top: 1rem;
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
+    margin-left: 8rem;
  }
  #blog1:hover{
     opacity: 0.5;
@@ -2083,7 +2130,7 @@ color: #782D50;
  }
  #btn{
     margin-top: 5rem;
-    margin-left: 6rem;
+    margin-left: 14rem;
     width: 40vw;
     height: 10vh;
     margin-bottom: 4rem;
@@ -2137,7 +2184,117 @@ color: white;
     background-color: #782D50;
     color: white;
      }
+
+     
+.blog_container{
+    width: 105vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 0rem;
+}
+
+
+.blog_container ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.blog_container li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
     
+}
+.blog_container p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
+   
+.blog_container1 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.blog_container1 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.blog_container1 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
+}
+
+p i{
+    display: block;
+   padding-right: 1rem;
+   color: white;
+}
+
+h4 i  {
+    display: block;
+  
+    color:#782D50;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+
+
+.blog_container1 P:hover{
+    background-color: black;
+    color: white;
+} 
+
+
+.footer1{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 12vh;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+   }
+   
+   .footer1 span{
+    color:#782D50
+   }
+   .events_item1{
+    margin-left: 4rem;
+   }
   .events_item1 h2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
@@ -2164,7 +2321,7 @@ padding-top: 1rem;
  #events1{
     display: flex;
     flex-direction: row;
-    margin-left: 8rem;
+    margin-left: 12rem;
     margin-top: 3rem;
  }
  
@@ -2206,12 +2363,14 @@ font-size: 1.25rem;
     margin-bottom: 1rem;
 font-size: 0.9rem;
 padding-left: 2rem;
+color: #782D50;
  }
  .events_item2 .comment{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 font-size: 0.9rem;
 padding-left: 2rem;
+color: #782D50;
 
  }
  .events_item2 button{
@@ -2267,13 +2426,14 @@ font-size: 1.25rem;
     margin-bottom: 1rem;
 font-size: 0.9rem;
 padding-left: 2rem;
+color: #782D50;
  }
  .events_item3 .comment{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
 font-size: 0.9rem;
 padding-left: 1.5rem;
-
+color: #782D50;
 
  }
  .events_item3 button{
@@ -2289,6 +2449,81 @@ padding-left: 1.5rem;
     background-color: black;
     color: white;
  }
+ 
+.events_container{
+    width: 105vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 0rem;
+}
+
+
+.events_container ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.events_container li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
+    
+}
+.events_container p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
+#projects .events_item1{
+margin-left: 4rem;
+}
+
+.projects_container{
+    width: 105vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 0rem;
+}
+
+
+.projects_container ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.projects_container li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
+    
+}
+.projects_container p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
  .contact_item1 h2{
     margin-left: 6rem;
     font-size: 2.2rem;
