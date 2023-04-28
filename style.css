@@ -25,7 +25,7 @@ main{
     
 }
 .description{
-    height: 5vh;
+    height: 7vh;
     margin-top: 8rem;
     margin-bottom: 0;
     display: flex;
@@ -34,10 +34,19 @@ main{
     width: 250rem;
     background-color: #782D50;
     color: white;
-    padding: 1.5rem;
+    padding: 1rem 5rem;
     
-    
-
+}
+.description em{
+    animation: marquee 60ms linear infinite;
+    @keyframes marquee{
+        0%{
+            transform: translatex(0%) ;
+        }
+        100%{
+            transform: translatex(100%);
+        }
+    }
 }
 
 h1{
@@ -84,6 +93,10 @@ h1{
    border: none;
    border-radius: 5px;
 
+}
+.description1 a{
+    color: white;
+    text-decoration: none;
 }
 .description1:hover{
     background-color: black;
@@ -152,39 +165,7 @@ nav a{
     display: block;
     margin-top: 0.5rem;
 }
-.description em{
-animation: em 5s linear infinite;
-}
-@keyframes em {
-    0% { 
-        transform: translateX(0%);
-    }
-    20%{
-        transform: translateX(0%);
-    }
-    25%{
-        transform: translateX(100%);
-    }
-    45%{
-        transform: translateX(100%);
-    }
-    50%{
-        transform: translateX(200%);
-    } 
-    70%{
-        transform: translateX(200%);
-    }
-    75%{
-        transform: translateX(300%);
-    }
-    95%{
-        transform: translateX(300%);
-    }
-    100%{
-        transform: translateX(400%);
-    }
-    
-}
+
 
 .slider_container{
     position: relative;
@@ -853,6 +834,13 @@ height: 10rem;
     margin-top: 6rem;
     margin-bottom: 1rem;
 }
+.grid_item button:hover{
+    background-color: black;
+}
+.grid_item a{
+    color: white;
+    text-decoration: none;
+}
 .slide.four .img{
     height: 30rem;
     padding: auto;
@@ -873,9 +861,7 @@ height: 20rem;
     margin-left: 55rem;
      
 }
-.grid_item button:hover{
-    background-color: black;
-}
+
 .container2{
     display: flex;
     flex-direction: row;
@@ -1069,6 +1055,10 @@ h3 i{
 .captionD2:hover{
     background-color: black;
 }
+.captionD2 a{
+    color: #782D50;
+    text-decoration: none;
+}
 .captionE2{
     position:absolute;
     left: 0;
@@ -1086,6 +1076,10 @@ h3 i{
     padding-left: 0rem;
     padding-right: 0rem;
     text-align: center;
+}
+.captionE2 a{
+    color: white;
+    text-decoration: none;
 }
 .captionE2:hover{
     background-color: black;
@@ -1184,6 +1178,10 @@ width: 90rem;
    display: flex;
    bottom: 13rem;
    
+}
+.content2 a{
+    color: white;
+    text-decoration: none;
 }
 .content2:hover{
     background-color: black;
@@ -1549,7 +1547,10 @@ font-size: 0.9rem;
     margin-top: 1.5rem;
     height: 7vh;
 }
-
+.content8 a{
+    color: #782D50;
+    text-decoration: none;
+}
 p i{
     display: block;
    padding-right: 1rem;
@@ -1821,6 +1822,10 @@ font-size: 1rem;
   }
   .about_item5 span:hover{
     background-color: black;
+  }
+  .about_item5 a{
+    color: #782D50 ;
+    text-decoration: none;
   }
   #creation{
     display: flex;
@@ -2205,7 +2210,10 @@ color: white;
     margin-top: 1.5rem;
     height: 7vh;
 }
-
+.blog_container1 a{
+    color: #782D50;
+    text-decoration: none;
+}
 p i{
     display: block;
    padding-right: 1rem;
@@ -2273,7 +2281,9 @@ padding-top: 1rem;
     justify-content: center;
     font-size: 0.8rem;
  }
-
+ .events_item1 p:hover{
+    color: #782D50;
+ }
  #events1{
     display: flex;
     flex-direction: row;
@@ -2469,6 +2479,10 @@ color: #782D50;
     margin-top: 1.5rem;
     height: 7vh;
 }
+.events_container1 a{
+    color: #782D50;
+    text-decoration: none;
+}
 #projects .events_item1{
 margin-left: 4rem;
 }
@@ -2535,6 +2549,10 @@ margin-left: 4rem;
     font-size: 0.8rem;
     margin-top: 1.5rem;
     height: 7vh;
+}
+.projects_container1 a{
+    color: #782D50;
+    text-decoration: none;
 }
 #gallery .events_item1{
     margin-left: 4rem;
@@ -2643,6 +2661,10 @@ margin-left: 4rem;
     font-size: 0.8rem;
     margin-top: 1.5rem;
     height: 7vh;
+}
+.gallery_container1 a{
+    color: #782D50;
+    text-decoration: none;
 }
 #contact .events_item1{
     margin-left: 8rem;
@@ -2790,6 +2812,10 @@ margin-left: 4rem;
     border-radius: 0.25rem 0.25rem;
     border: none;
  }
+ .contact_item5 a{
+    color: white;
+    text-decoration: none;
+ }
  .contact_item5 button:hover{
     background-color: black;
     color: white;
@@ -2804,6 +2830,112 @@ margin-left: 4rem;
    
  }
 
+
+ #donate .events_item1{
+    margin-left: 3rem;
+    width: 100vw;
+}
+.donate_item1{
+    margin-left: 7rem;
+}
+ .donate_item1 h2{
+    margin-left: 10rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+ }
+ .donate_item1 hr{
+    margin-left: 10rem;
+    width: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+ }
+
+ .donate_item1 p{
+    margin-left: 10rem;
+    width: 2rem;
+    margin-top: 1rem;
+   width: 25vw;
+   margin-bottom: 2rem;
+ }
+ .donate_item1 span{
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #782D50;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+ }
+
+
+ .donate_container{
+    width: 105vw;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    padding-left: 0rem;
+}
+
+
+.donate_container ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+   
+}
+
+.donate_container li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    list-style:disc;
+    
+}
+.donate_container p{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+   color: white;
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   width: 17vw;
+}
+
+.donate_container1 h3{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+    color: #782D50;
+}
+.donate_container1 hr{
+    width:3vw;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: #782D50;
+    
+}
+.donate_container1 P{
+    color: #782D50;
+    background-color: white;
+    display: block;
+    width: 12vw;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    height: 7vh;
+}
+
+
+
 figure{
     display: flex;
     flex-direction: column;
@@ -2811,6 +2943,6 @@ figure{
     width: 23vw;
     height: 10vh;
     margin-bottom: 30rem;
-    margin-left: 0.2rem;
+    margin-left: 4.2rem;
   
 }
