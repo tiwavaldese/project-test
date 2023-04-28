@@ -2085,6 +2085,26 @@ color: #782D50;
     height: 10vh;
     margin-bottom: 4rem;
  }
+ .Btn a{
+    color: black;
+    text-decoration: none;
+ }
+ .Btn1 a{
+    color: white;
+    text-decoration: none;
+ }
+ .Btn2 a{
+    color: black;
+    text-decoration: none;
+ }
+ .Btn3 a{
+    color: black;
+    text-decoration: none;
+ }
+ .Btn4 a{
+    color: black;
+    text-decoration: none;
+ }
  .Btn{
     width: 7vw;
     height: 8vh;
